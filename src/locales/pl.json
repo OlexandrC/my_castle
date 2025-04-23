@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "Graj",
+        "load": "Wczytaj",
+        "settings": "Opcje",
+        "language": "Język",
+        "info": "Info",
+        "next": "Dalej",
+        "previous": "Poprzedni"
+    },
+    "intro": {
+        "old_man": "To historia Daniego. Odwiedził chorego ojca.",
+        "old_man_dead": "Ojciec wkrótce zmarł. Dani za nim tęsknił.",
+        "paper_reading": "Odziedziczył zadłużony dwór. Postanowił tam zostać."
+    },
+    "game": {
+        "nextDay": "Nast. dzień",
+        "save": "Zapisz",
+        "exit": "Wyjście",
+        "back": "Wstecz",
+        "move_points": "Ruchy",
+        "coins": "Monety",
+        "force": "Siła",
+        "intelligence": "Umysł",
+        "health": "Zdrowie",
+        "not_enough_move_points": "Za mało ruchów",
+        "no_plants_to_delete": "Brak roślin do usunięcia",
+        "garden_description": "Ogród. Uprawiaj, by zarobić.",
+        "gym_description": "Siłownia. Trenuj umiejętności.",
+        "workshop_description": "Warsztat. Twórz rzeczy tutaj.",
+        "backyard_description": "Podwórko. Sprzątaj, szukaj.",
+        "not_enough_force": "Niewystarczająca siła",
+        "level": "Poziom",
+        "plant_was_destroyed": "Roślina została zniszczona",
+        "stone_was_destroyed": "Kamień został zniszczony",
+        "enemy_was_defeated": "Wróg został pokonany",
+        "oh_no_dani_dead": "O nie! Dani nie żyje!",
+        "treasure_was_found": "Skarb został znaleziony",
+        "game_over_dani_dead": "Koniec gry. Dani nie żyje.",
+        "game_over_dani_left": "Koniec gry. To miejsce zostało odebrane za długi. Dani odszedł i nikt nie wie, gdzie teraz jest.",
+        "sound_volume": "Głośność",
+        "item_crafted" : "Przedmiot stworzony",
+        "balance" : "Saldo",
+        "dayly_tax" : "Codzienny podatek",
+        "day" : "Dzień",
+        "got_from_garden" : "Otrzymano z ogrodu",
+        "base_scene_description": "Naciśnij następny dzień, gdy działania się zakończą. Aby wygrać, zbierz: ",
+        "game_over_dani_winForceFullOnly": "Dani wygrał. Spłacił swoje długi. Potem zbudował na posiadłości plac treningowy. Dani często wygrywał różne zawody. Był szanowany za swoją siłę.",
+        "game_over_dani_winIntelligenceFullOnly": "Dani wygrał. Spłacił swoje długi. Potem zbudował na posiadłości bibliotekę. Dani został uczonym. Był szanowany za swój rozum.",
+        "game_over_dani_winFull": "Wszystko poszło bardzo dobrze. Dani spłacił swoje długi. Stał się silny i mądry. Teraz nikt nie odbierze mu posiadłości. Ożenił się, a w jego domu zapanowały pokój i porządek.",
+        "game_over_dani_disappointed": "Może to wszystko stało się zbyt trudne dla Daniego. Postanowił więc opuścić to miejsce. Szkoda. Wydawało się, że wszystko było dobrze, ale Dani stracił nadzieję. Szkoda.",
+        "plant_exists": "Tutaj już jest roślina",
+        "game_over_dani_winSimple": "Dani wygrał. Spłacił długi. Został w posiadłości, żyjąc długo i szczęśliwie.",
+        "no_secret_key": "Brak klucza",
+        "chest_opened": "Skrzynia otwarta",
+        "castle_description": "Znajdź klucz w ogrodzie, aby otworzyć skrzynię",
+        "letter": "Mój drogi Dani,\nZawsze będę z tobą, w twoich wspomnieniach.\nWszystko, co miałem — zostawiam tobie. \nWierzę w ciebie. \nNie bój się trudności. \n\nTwój tatuś",
+        "secret_key_found": "Klucz znaleziony"
+    },
+    "info": {
+        "text_1": "Pomóż chłopakowi o imieniu Dani spłacić długi i zachować odziedziczony majątek rodzinny.\nZbierz 1000, aby wygrać. Każdego dnia pobierany jest podatek, który stopniowo rośnie. Upewnij się, że saldo nie spadnie poniżej 0.\nGra została stworzona podczas \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nStworzona przy użyciu silnika gry Phaser3.\nhttps://phaser.io/",
+        "text_2": "Gra ma 7 zakończeń.\n1 - Rozpocznij grę i wyjdź bez jej ukończenia. Dani będzie zawiedziony.\n2 - Dani może zginąć w walce z wrogami.\n3 - Saldo spadnie poniżej 0. Dani opuści majątek i zniknie.\n4 - Pełne zwycięstwo. Wymaga maksymalnej siły i inteligencji oraz zebrania 1000.\n5 - Zwycięstwo z maksymalną siłą, ale bez maksymalnej inteligencji i zebranie 1000.\n6 - Zwycięstwo z maksymalną inteligencją, ale bez maksymalnej siły i zebranie 1000.\n7 - Zwycięstwo bez maksymalnej siły i inteligencji oraz zebranie 1000.",
+        "text_3": "W ogrodzie rośliny dają monety.\nWarzywa dają od 1 (bardziej prawdopodobne) do 3 (mniej prawdopodobne)\nJagody dają 2, wymaga inteligencji 1\nDrzewa dają od 1 (mniej prawdopodobne) do 3 (bardziej prawdopodobne), wymaga inteligencji 2",
+        "text_4": "Obrażenia na podwórku:\nTrawa 1...5\nKamienie 1...10 (można rozbić przy sile 1)\nWrogowie 11...15.\n",
+        "text_5": "Obrona z ekwipunku:\nHełm: 1\nZbroja: 3\nButy: 1\nRękawice: 1\nTarcza: 3\nMiecz: 1",
+        "text_6": "Klucz do skrzyni znajduje się na podwórku, poziom 2, w losowym miejscu. Zdrowie regeneruje się stopniowo po zakończeniu dnia.",
+        "text_7": "Podziękowania \n Dźwięki interakcji UI wygenerowane na - https://sfxr.me/ \n Wszystkie dźwięki na licencji CC0:\n true_love_ost autorstwa nene - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg autorstwa JaggedStone - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg autorstwa sicklink - https://opengameart.org/content/locked-door \n Fragments Of Time autorstwa Psychronic - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "Podziękowania \n Tears Of The Fallen autorstwa Psychronic - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room autorstwa Kevin MacLeod - https://freepd.com \n Night Vigil autorstwa Kevin MacLeod - https://freepd.com \n a very brady special autorstwa Kevin MacLeod, - https://freepd.com \n pond autorstwa Rafael Krux. - https://freepd.com \n SwordBattle2.wav autorstwa freefire66 - https://freesound.org/s/175951/ -- Licencja: Creative Commons 0"
+    }
+
+
+}

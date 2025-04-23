@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "Jugar",
+        "load": "Cargar",
+        "settings": "Opciones",
+        "language": "Idioma",
+        "info": "Info",
+        "next": "Sigue",
+        "previous": "Anterior"
+    },
+    "intro": {
+        "old_man": "Esta es la historia de Dani. Fue a ver a su padre enfermo.",
+        "old_man_dead": "Su padre murió pronto. Dani lo extrañaba mucho.",
+        "paper_reading": "Dani heredó una finca con deudas. Decidió quedarse."
+    },
+    "game": {
+        "nextDay": "Sig día",
+        "save": "Guardar",
+        "exit": "Salir",
+        "back": "Atrás",
+        "move_points": "Movs",
+        "coins": "Monedas",
+        "force": "Fuerza",
+        "intelligence": "Listo",
+        "health": "Vida",
+        "not_enough_move_points": "Faltan movs",
+        "no_plants_to_delete": "Sin plantas a borrar",
+        "garden_description": "Huerto. Planta para ganar monedas.",
+        "gym_description": "Gimnasio. Mejora tus habilidades.",
+        "workshop_description": "Taller. Crea cosas aquí.",
+        "backyard_description": "Patio. Limpia y busca objetos.",
+        "not_enough_force": "Fuerza insuficiente",
+        "level": "Nivel",
+        "plant_was_destroyed": "La planta fue destruida",
+        "stone_was_destroyed": "La piedra fue destruida",
+        "enemy_was_defeated": "El enemigo fue derrotado",
+        "oh_no_dani_dead": "¡Oh no! ¡Dani ha muerto!",
+        "treasure_was_found": "Se encontró un tesoro",
+        "game_over_dani_dead": "Fin del juego. Dani ha muerto.",
+        "game_over_dani_left": "Fin del juego. Este lugar fue embargado por deudas. Dani se fue y ahora nadie sabe dónde está.",
+        "sound_volume": "Volumen",
+        "item_crafted" : "Objeto creado",
+        "balance" : "Saldo",
+        "dayly_tax" : "Impuesto diario",
+        "day" : "Día",
+        "got_from_garden" : "Obtenido del jardín",
+        "base_scene_description": "Presiona el siguiente día cuando las acciones hayan terminado. Para ganar, recoge: ",
+        "game_over_dani_winForceFullOnly": "Dani ganó. Pagó sus deudas. Luego construyó un campo de entrenamiento en la finca. Dani ganaba a menudo en varias competiciones. Lo respetaban por su fuerza.",
+        "game_over_dani_winIntelligenceFullOnly": "Dani ganó. Pagó sus deudas. Luego construyó una biblioteca en la finca. Dani se convirtió en un erudito. Lo respetaban por su inteligencia.",
+        "game_over_dani_winFull": "Todo salió muy bien. Dani pagó sus deudas. Se volvió fuerte e inteligente. Ahora nadie le quitará su finca. Se casó y en su casa reinó la paz y el orden.",
+        "game_over_dani_disappointed": "Tal vez fue demasiado difícil para Dani. Así que decidió irse de este lugar. Qué pena. Parecía que todo iba bien, pero Dani perdió la esperanza. Qué pena.",
+        "plant_exists": "Ya hay una planta aquí",
+        "game_over_dani_winSimple": "Dani ganó. Pagó sus deudas. Se quedó a vivir en la mansión, largo y feliz.",
+        "no_secret_key": "No hay llave",
+        "chest_opened": "Cofre abierto",
+        "castle_description": "Encuentra la llave en el jardín para abrir el cofre",
+        "letter": "Mi querido Dani,\nSiempre estaré contigo, en tus recuerdos.\nTodo lo que tuve — te lo dejo. \nCreo en ti. \nNo temas las dificultades. \n\nTu papá",
+        "secret_key_found": "Llave encontrada"
+    },
+    "info": {
+        "text_1": "Ayuda al chico Dani a pagar sus deudas y conservar la finca familiar que heredó.\nRecolecta 1000 para ganar. Se recauda un impuesto cada día que aumenta gradualmente. Asegúrate de que el saldo no sea inferior a 0.\nEl juego fue creado durante el \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nCreado con el motor de juego Phaser3.\nhttps://phaser.io/",
+        "text_2": "El juego tiene 7 finales.\n1 - Inicia el juego y sal sin terminar. Dani estará decepcionado.\n2 - Dani puede morir en batalla contra los enemigos.\n3 - El saldo cae por debajo de 0. Dani abandona la finca y desaparece.\n4 - Victoria completa. Se necesita fuerza e inteligencia máximas y recolectar 1000.\n5 - Victoria con fuerza máxima pero sin inteligencia máxima y recolectar 1000.\n6 - Victoria con inteligencia máxima pero sin fuerza máxima y recolectar 1000.\n7 - Victoria sin fuerza ni inteligencia máximas y recolectar 1000.",
+        "text_3": "En el jardín, las plantas dan monedas.\nLas verduras dan de 1 (más probable) a 3 (menos probable)\nLas bayas dan 2, se requiere inteligencia 1\nLos árboles dan de 1 (menos probable) a 3 (más probable), se requiere inteligencia 2",
+        "text_4": "Daño en el patio:\nHierba 1...5\nPiedras 1...10 (se pueden romper con fuerza 1)\nEnemigos 11...15.\n",
+        "text_5": "Defensa del equipamiento:\nCasco: 1\nArmadura: 3\nZapatos: 1\nGuantes: 1\nEscudo: 3\nEspada: 1",
+        "text_6": "La llave del cofre se encuentra en el patio, nivel 2, en un lugar aleatorio. La salud se recupera lentamente al finalizar el día.",
+        "text_7": "Agradecimientos \n Sonidos de interacción de UI generados en - https://sfxr.me/ \n Todos los sonidos bajo licencia CC0:\n true_love_ost por nene - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg por JaggedStone - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg por sicklink - https://opengameart.org/content/locked-door \n Fragments Of Time por Psychronic - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "Agradecimientos \n Tears Of The Fallen por Psychronic - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room por Kevin MacLeod - https://freepd.com \n Night Vigil por Kevin MacLeod - https://freepd.com \n a very brady special por Kevin MacLeod, - https://freepd.com \n pond por Rafael Krux. - https://freepd.com \n SwordBattle2.wav por freefire66 - https://freesound.org/s/175951/ -- Licencia: Creative Commons 0"
+    }
+
+
+}

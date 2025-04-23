@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "Play",
+        "load": "Load",
+        "settings": "Config",
+        "language": "Lang",
+        "info": "Info",
+        "next": "Next",
+        "previous": "Previous"
+    },
+    "intro": {
+        "old_man": "This is a story of a guy named Dani. He came to see his sick dad.",
+        "old_man_dead": "Soon, dad died. Dani loved and missed him dearly.",
+        "paper_reading": "Dani inherited an old, debt-ridden estate. He chose to stay."
+    },
+    "game": {
+        "nextDay": "Next day",
+        "save": "Save",
+        "exit": "Exit",
+        "back": "Back",
+        "move_points": "Moves",
+        "coins": "Coins",
+        "force": "Power",
+        "intelligence": "Smarts",
+        "health": "Health",
+        "not_enough_move_points": "Not enough moves",
+        "no_plants_to_delete": "No plants to clear",
+        "garden_description": "Garden. Grow plants to earn coins.",
+        "gym_description": "Gym. Train to boost skills.",
+        "workshop_description": "Workshop. Create items here.",
+        "backyard_description": "Yard. Clean up, find items.",
+        "not_enough_force": "Not enough force",
+        "level": "Level",
+        "plant_was_destroyed": "Plant was destroyed",
+        "stone_was_destroyed": "Stone was destroyed",
+        "enemy_was_defeated": "Enemy was defeated",
+        "oh_no_dani_dead": "Oh no! Dani is dead!",
+        "treasure_was_found": "Treasure was found",
+        "game_over_dani_dead": "Game over. Dani has died.",
+        "game_over_dani_left": "Game over. This place was taken for debts. Dani left, and now no one knows where he is.",
+        "sound_volume": "Volume",
+        "item_crafted" : "Item crafted",
+        "balance" : "Balance",
+        "dayly_tax" : "Daily tax",
+        "day" : "Day",
+        "got_from_garden" : "Got from garden",
+        "base_scene_description": "Press next day when the actions are finished. To win, collect: ",
+        "game_over_dani_winForceFullOnly": "Dani won. He paid off his debts. Then he built a training ground in the estate. Dani often won various competitions. He was respected for his strength.",
+        "game_over_dani_winIntelligenceFullOnly": "Dani won. He paid off his debts. Then he built a library in the estate. Dani became a scholar. He was respected for his intelligence.",
+        "game_over_dani_winFull": "Everything turned out very well. Dani paid off his debts. He became strong and smart. Now no one will take his estate away. He got married, and peace and order came to his home.",
+        "game_over_dani_disappointed": "Maybe it became too difficult for Dani. So he decided to leave this place. It's a pity. It seemed like everything was fine, but Dani lost hope. It's a pity.",
+        "plant_exists": "There is already a plant here",
+        "game_over_dani_winSimple": "Dani won. He paid off the debts. He continued to live in the mansion long and happily.",
+        "no_secret_key": "No key",
+        "chest_opened": "Chest opened",
+        "castle_description": "Find the key in the garden to open the chest",
+        "letter": "My dear Dani,\nI will always be with you, in your memories.\nEverything I had — I leave to you. \nI believe in you. \nDo not fear difficulties. \n\nYour dad",
+        "secret_key_found": "Key found"
+    },
+    "info": {
+        "text_1": "Help the boy Dani pay off debts and keep the family estate he inherited.\nCollect 1000 to win. A tax is collected every day and gradually increases. Make sure your balance doesn’t drop below 0.\nThe game was created during \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nBuilt with the Phaser3 game engine.\nhttps://phaser.io/",
+        "text_2": "The game has 7 final scenes.\n1 - Start the game and exit without finishing. Dani will be disappointed.\n2 - Dani can die in battle with enemies.\n3 - Balance goes below 0. Dani leaves the estate and disappears.\n4 - Full win. Requires max strength and intelligence and collect 1000.\n5 - Win with max strength but without max intelligence and collect 1000.\n6 - Win with max intelligence but without max strength and collect 1000.\n7 - Win without max strength or intelligence and collect 1000.",
+        "text_3": "In the garden, plants give coins.\nVegetables give from 1 (more likely) to 3 (less likely)\nBerries give 2, requires intelligence 1\nTrees give from 1 (less likely) to 3 (more likely), requires intelligence 2",
+        "text_4": "Damage in the yard:\nGrass 1...5\nStones 1...10 (can be broken with strength 1)\nEnemies 11...15.\n",
+        "text_5": "Equipment defense:\nHelmet: 1\nArmor: 3\nShoes: 1\nGloves: 1\nShield: 3\nSword: 1",
+        "text_6": "Key for the chest is given in the yard, level 2, in a random spot. Health is slowly restored at the end of the day.",
+        "text_7": "Credits \n UI interaction sounds generated on - https://sfxr.me/ \n All sounds under CC0 license:\n true_love_ost by nene - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg by JaggedStone - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg by sicklink - https://opengameart.org/content/locked-door \n Fragments Of Time by Psychronic - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "Credits \n Tears Of The Fallen by Psychronic - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room by Kevin MacLeod - https://freepd.com \n Night Vigil by Kevin MacLeod - https://freepd.com \n a very brady special by Kevin MacLeod, - https://freepd.com \n pond by Rafael Krux. - https://freepd.com \n SwordBattle2.wav by freefire66 - https://freesound.org/s/175951/ -- License: Creative Commons 0"
+    }
+
+
+}

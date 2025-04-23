@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "开始",
+        "load": "加载",
+        "settings": "设置",
+        "language": "语言",
+        "info": "信息",
+        "next": "下一步",
+        "previous": "上一页"
+    },
+    "intro": {
+        "old_man": "这是Dani的故事。他来看病重的父亲。",
+        "old_man_dead": "父亲去世了。Dani非常伤心。",
+        "paper_reading": "他继承了欠债的庄园，并决定住下。"
+    },
+    "game": {
+        "nextDay": "次日",
+        "save": "保存",
+        "exit": "退出",
+        "back": "返回",
+        "move_points": "移动点",
+        "coins": "硬币",
+        "force": "力量",
+        "intelligence": "智力",
+        "health": "生命",
+        "not_enough_move_points": "移动点不足",
+        "no_plants_to_delete": "无可删植物",
+        "garden_description": "花园。种植赚钱。",
+        "gym_description": "健身。增强能力。",
+        "workshop_description": "工作坊。在这里创造东西。",
+        "backyard_description": "后院。清理发现物。",
+        "not_enough_force": "力量不足",
+        "level": "等级",
+        "plant_was_destroyed": "植物被摧毁了",
+        "stone_was_destroyed": "石头被摧毁了",
+        "enemy_was_defeated": "敌人被击败了",
+        "oh_no_dani_dead": "哦不！Dani 死了！",
+        "treasure_was_found": "发现了宝藏",
+        "game_over_dani_dead": "游戏结束。Dani 死了。",
+        "game_over_dani_left": "游戏结束。这个地方因为债务被夺走了。Dani 离开了，现在没人知道他在哪里。",
+        "sound_volume": "音量",
+        "item_crafted" : "物品已制作",
+        "balance" : "余额",
+        "dayly_tax" : "每日税收",
+        "day" : "天",
+        "got_from_garden" : "从花园获得",
+        "base_scene_description": "当动作完成后，点击下一天。要赢，请收集：",
+        "game_over_dani_winForceFullOnly": "Dani 获胜了。他还清了债务。然后他在庄园里建了一个训练场。Dani 经常在各种比赛中获胜。他因力量而受到尊敬。",
+        "game_over_dani_winIntelligenceFullOnly": "Dani 获胜了。他还清了债务。然后他在庄园里建了一个图书馆。Dani 成为了一位学者。他因智慧而受到尊敬。",
+        "game_over_dani_winFull": "一切都非常顺利。Dani 还清了债务。他变得强大而聪明。现在没有人能夺走他的庄园。他结婚了，家中迎来了和平与秩序。",
+        "game_over_dani_disappointed": "也许这对 Dani 来说太难了。所以他决定离开这个地方。真遗憾。本来一切看起来都很好，但 Dani 放弃了。真遗憾。",
+        "plant_exists": "这里已经有一棵植物了",
+        "game_over_dani_winSimple": "Dani赢了。他还清了债务。他在庄园里幸福地生活了很久。",
+        "no_secret_key": "没有钥匙",
+        "chest_opened": "宝箱已打开",
+        "castle_description": "在花园里找到钥匙来打开宝箱",
+        "letter": "亲爱的Dani，\n我会一直与你同在，在你的记忆中。\n我拥有的一切——我都留给你。 \n我相信你。 \n不要害怕困难。 \n\n你的爸爸",
+        "secret_key_found": "找到钥匙"
+    },
+    "info": {
+        "text_1": "帮助男孩Dani偿还债务并保住他继承的家族庄园。\n收集1000即可获胜。每天都会收税，税额逐渐增加。确保余额不低于0。\n本游戏在 \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n期间制作。\n\n使用Phaser3游戏引擎开发。\nhttps://phaser.io/",
+        "text_2": "游戏有7个结局。\n1 - 开始游戏但未完成就退出。Dani会感到失望。\n2 - Dani可能在与敌人的战斗中死亡。\n3 - 余额跌到0以下。Dani离开庄园并消失。\n4 - 完美胜利。需要最大力量和智力并收集1000。\n5 - 有最大力量但没有最大智力并收集1000的胜利。\n6 - 有最大智力但没有最大力量并收集1000的胜利。\n7 - 没有最大力量和智力的情况下收集1000获胜。",
+        "text_3": "在花园中，植物会掉落硬币。\n蔬菜掉落1（概率高）到3（概率低）\n浆果掉落2，需要智力1\n树木掉落1（概率低）到3（概率高），需要智力2",
+        "text_4": "庭院中的伤害：\n草 1...5\n石头 1...10（需要力量1可破坏）\n敌人 11...15。\n",
+        "text_5": "装备防御：\n头盔: 1\n护甲: 3\n鞋子: 1\n手套: 1\n盾牌: 3\n剑: 1",
+        "text_6": "宝箱钥匙在庭院第2层的随机位置掉落。每天结束时生命值会缓慢恢复。",
+        "text_7": "致谢 \n UI交互音效生成自 - https://sfxr.me/ \n 所有音效均遵循CC0许可协议：\n true_love_ost - nene创作 - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg - JaggedStone创作 - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg - sicklink创作 - https://opengameart.org/content/locked-door \n Fragments Of Time - Psychronic创作 - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "致谢 \n Tears Of The Fallen - Psychronic创作 - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room - Kevin MacLeod创作 - https://freepd.com \n Night Vigil - Kevin MacLeod创作 - https://freepd.com \n a very brady special - Kevin MacLeod创作 - https://freepd.com \n pond - Rafael Krux创作 - https://freepd.com \n SwordBattle2.wav - freefire66创作 - https://freesound.org/s/175951/ -- 许可：Creative Commons 0"
+    }
+
+
+}

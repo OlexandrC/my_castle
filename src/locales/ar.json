@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "العب",
+        "load": "تحميل",
+        "settings": "اعداد",
+        "language": "لغة",
+        "info": "معلومات",
+        "next": "التالي",
+        "previous": "السابق"
+    },
+    "intro": {
+        "old_man": "هذه قصة Dani. زار والده المريض.",
+        "old_man_dead": "توفي الأب. اشتاق له Dani بشدة.",
+        "paper_reading": "ورث قصرًا مثقلًا بالديون. قرر العيش فيه."
+    },
+    "game": {
+        "nextDay": "اليوم+1",
+        "save": "حفظ",
+        "exit": "خروج",
+        "back": "رجوع",
+        "move_points": "حركات",
+        "coins": "عملات",
+        "force": "قوة",
+        "intelligence": "ذكاء",
+        "health": "صحة",
+        "not_enough_move_points": "لا توجد حركات كافية",
+        "no_plants_to_delete": "لا نباتات للحذف",
+        "garden_description": "حديقة. ازرع واربح.",
+        "gym_description": "صالة. زد القوة.",
+        "workshop_description": "ورشة العمل. أنشئ أشياء هنا.",
+        "backyard_description": "فناء. نظف وابحث.",
+        "not_enough_force": "ليست هناك قوة كافية",
+        "level": "المستوى",
+        "plant_was_destroyed": "تم تدمير النبات",
+        "stone_was_destroyed": "تم تدمير الحجر",
+        "enemy_was_defeated": "تم هزيمة العدو",
+        "oh_no_dani_dead": "أوه لا! داني مات!",
+        "treasure_was_found": "تم العثور على الكنز",
+        "game_over_dani_dead": "انتهت اللعبة. داني مات.",
+        "game_over_dani_left": "انتهت اللعبة. تم أخذ هذا المكان بسبب الديون. غادر داني ولا أحد يعرف أين هو الآن.",
+        "sound_volume": "مستوى الصوت",
+        "item_crafted" : "تم تصنيع العنصر",
+        "balance" : "الرصيد",
+        "dayly_tax" : "الضريبة اليومية",
+        "day" : "اليوم",
+        "got_from_garden" : "تم الحصول عليه من الحديقة",
+        "base_scene_description": "اضغط على اليوم التالي عند انتهاء الإجراءات. للفوز، اجمع: ",
+        "game_over_dani_winForceFullOnly": "فاز داني. سدد ديونه. ثم بنى ساحة تدريب في القصر. كان داني يفوز غالبًا في المسابقات المختلفة. وكان يُحترم لقوته.",
+        "game_over_dani_winIntelligenceFullOnly": "فاز داني. سدد ديونه. ثم أنشأ مكتبة في القصر. أصبح داني عالمًا. وكان يُحترم لذكائه.",
+        "game_over_dani_winFull": "سارت الأمور بشكل جيد جدًا. سدد داني ديونه. أصبح قويًا وذكيًا. الآن لا يمكن لأحد أن يأخذ منه قصره. تزوج، وساد السلام والنظام في منزله.",
+        "game_over_dani_disappointed": "ربما أصبح الأمر صعبًا جدًا على داني. فقرر مغادرة هذا المكان. يا للأسف. بدا أن كل شيء على ما يرام، لكن داني فقد الأمل. يا للأسف.",
+        "plant_exists": "هناك نبتة هنا بالفعل",
+        "game_over_dani_winSimple": "فاز داني. سدد ديونه. وبقي في القصر يعيش طويلاً وسعيدًا.",
+        "no_secret_key": "لا يوجد مفتاح",
+        "chest_opened": "تم فتح الصندوق",
+        "castle_description": "ابحث عن المفتاح في الحديقة لفتح الصندوق",
+        "letter": "عزيزي داني،\nسأكون دائمًا معك، في ذكرياتك.\nكل ما أملكه — أتركه لك. \nأنا أؤمن بك. \nلا تخف من الصعوبات. \n\nوالدك",
+        "secret_key_found": "تم العثور على المفتاح"
+    },
+    "info": {
+        "text_1": "ساعد الصبي Dani على سداد ديونه والحفاظ على القصر العائلي الذي ورثه.\nاجمع 1000 للفوز. يتم فرض ضريبة يومية تزداد تدريجياً. تأكد من أن الرصيد لا يقل عن 0.\nتم إنشاء اللعبة خلال \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nتم استخدام محرك الألعاب Phaser3.\nhttps://phaser.io/",
+        "text_2": "تحتوي اللعبة على 7 نهايات.\n1 - ابدأ اللعبة وغادر دون إنهائها. سيكون Dani محبطاً.\n2 - يمكن أن يموت Dani في معركة مع الأعداء.\n3 - ينخفض الرصيد إلى أقل من 0. يغادر Dani القصر ويختفي.\n4 - فوز كامل. يتطلب أقصى قوة وذكاء وجمع 1000.\n5 - فوز بأقصى قوة ولكن بدون أقصى ذكاء مع جمع 1000.\n6 - فوز بأقصى ذكاء ولكن بدون أقصى قوة مع جمع 1000.\n7 - فوز بدون أقصى قوة أو ذكاء مع جمع 1000.",
+        "text_3": "في الحديقة، تعطي النباتات عملات.\nالخضروات تعطي من 1 (مرجحة) إلى 3 (أقل ترجيحاً)\nالتوت يعطي 2، يتطلب ذكاء 1\nالأشجار تعطي من 1 (أقل ترجيحاً) إلى 3 (مرجحة)، يتطلب ذكاء 2",
+        "text_4": "الضرر في الفناء:\nالعشب 1...5\nالحجارة 1...10 (يمكن كسرها بقوة 1)\nالأعداء 11...15.\n",
+        "text_5": "الدفاع من العتاد:\nخوذة: 1\nدرع: 3\nحذاء: 1\nقفازات: 1\nدرع يد: 3\nسيف: 1",
+        "text_6": "يتم توفير المفتاح للصندوق في الفناء، المستوى 2، في موقع عشوائي. يتم استعادة الصحة تدريجياً في نهاية اليوم.",
+        "text_7": "شكر وتقدير \n تم إنشاء أصوات تفاعل الواجهة - https://sfxr.me/ \n جميع الأصوات بموجب رخصة CC0:\n true_love_ost من nene - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg من JaggedStone - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg من sicklink - https://opengameart.org/content/locked-door \n Fragments Of Time من Psychronic - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "شكر وتقدير \n Tears Of The Fallen من Psychronic - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room من Kevin MacLeod - https://freepd.com \n Night Vigil من Kevin MacLeod - https://freepd.com \n a very brady special من Kevin MacLeod - https://freepd.com \n pond من Rafael Krux. - https://freepd.com \n SwordBattle2.wav من freefire66 - https://freesound.org/s/175951/ -- الرخصة: Creative Commons 0"
+    }
+
+
+}

@@ -1,0 +1,73 @@
+{
+    "menu": {
+        "play": "プレイ",
+        "load": "読込",
+        "settings": "設定",
+        "language": "言語",
+        "info": "情報",
+        "next": "次へ",
+        "previous": "前へ"
+    },
+    "intro": {
+        "old_man": "これはDaniの話。彼は病気の父を訪ねた。",
+        "old_man_dead": "父はすぐに亡くなった。Daniは深く悲しんだ。",
+        "paper_reading": "古く借金のある屋敷を相続し、彼は住むことにした。"
+    },
+    "game": {
+        "nextDay": "次の日",
+        "save": "保存",
+        "exit": "終了",
+        "back": "戻る",
+        "move_points": "移動数",
+        "coins": "コイン",
+        "force": "力",
+        "intelligence": "知性",
+        "health": "体力",
+        "not_enough_move_points": "移動数が足りない",
+        "no_plants_to_delete": "削除する植物なし",
+        "garden_description": "庭。作物で収入。",
+        "gym_description": "ジム。能力アップ。",
+        "workshop_description": "ワークショップ。ここで物を作ろう。",
+        "backyard_description": "裏庭。掃除して発見。",
+        "not_enough_force": "力が足りない",
+        "level": "レベル",
+        "plant_was_destroyed": "植物が破壊されました",
+        "stone_was_destroyed": "石が破壊されました",
+        "enemy_was_defeated": "敵が倒された",
+        "oh_no_dani_dead": "ああ！ダニが死んだ！",
+        "treasure_was_found": "宝物が見つかりました",
+        "game_over_dani_dead": "ゲームオーバー。Daniは死んだ。",
+        "game_over_dani_left": "ゲームオーバー。この場所は借金で奪われた。Daniは去り、今では誰も彼の居場所を知らない。",
+        "sound_volume": "音量",
+        "item_crafted" : "アイテムを作成しました",
+        "balance" : "残高",
+        "dayly_tax" : "日税",
+        "day" : "日",
+        "got_from_garden" : "庭から取得",
+        "base_scene_description": "すべての行動が終了したら、次の日を押してください。勝つには集めてください: ",
+        "game_over_dani_winForceFullOnly": "Dani は勝利しました。借金を返済しました。そして、屋敷に訓練場を作りました。Dani はさまざまな大会でよく勝ちました。彼はその力で尊敬されていました。",
+        "game_over_dani_winIntelligenceFullOnly": "Dani は勝利しました。借金を返済しました。そして、屋敷に図書館を作りました。Dani は学者になりました。彼はその知性で尊敬されていました。",
+        "game_over_dani_winFull": "すべてが非常にうまくいきました。Dani は借金を返済しました。彼は強く、賢くなりました。今では誰も彼から屋敷を奪えません。彼は結婚し、彼の家には平和と秩序が訪れました。",
+        "game_over_dani_disappointed": "もしかすると、Dani にとってあまりにも困難になったのかもしれません。だから、彼はこの場所を去ることを決めました。残念です。すべてがうまくいっているように見えましたが、Dani は希望を失いました。残念です。",
+        "plant_exists": "ここにはすでに植物があります",
+        "game_over_dani_winSimple": "Daniは勝利した。彼は借金を返済した。彼は屋敷に長く幸せに住み続けた。",
+        "no_secret_key": "鍵がありません",
+        "chest_opened": "宝箱が開きました",
+        "castle_description": "庭で鍵を見つけて宝箱を開けよう",
+        "letter": "親愛なるダニへ、\n私はいつも君と共にいるよ、\n君の記憶の中で。\n私のすべてを—君に託す。 \n君を信じている。 \n困難を恐れないで。 \n\n君のお父さんより",
+        "secret_key_found": "鍵が見つかりました"
+    },
+    "info": {
+        "text_1": "少年Daniが借金を返済し、相続した家族の屋敷を守るのを助けましょう。\n勝つには1000を集めましょう。毎日税金が徴収され、徐々に増えていきます。\n残高が0を下回らないように注意してください。\nこのゲームは \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\nの期間中に制作されました。\n\nゲームエンジンPhaser3を使用。\nhttps://phaser.io/",
+        "text_2": "このゲームには7つのエンディングがあります。\n1 - ゲームを開始して途中で終了する。Daniは失望します。\n2 - 敵との戦闘でDaniが死亡します。\n3 - 残高が0を下回ります。Daniは屋敷を去り、姿を消します。\n4 - 完全勝利。最大の力と知性が必要で、1000を集める。\n5 - 最大の力はあるが知性が最大でない勝利で1000を集める。\n6 - 最大の知性はあるが力が最大でない勝利で1000を集める。\n7 - 力も知性も最大でない状態で1000を集めて勝利する。",
+        "text_3": "庭では植物がコインをくれます。\n野菜は1（確率高）〜3（確率低）\nベリーは2、知性1が必要\n木は1（確率低）〜3（確率高）、知性2が必要",
+        "text_4": "中庭でのダメージ：\n草 1...5\n石 1...10（力1で壊せる）\n敵 11...15。\n",
+        "text_5": "装備による防御：\nヘルメット: 1\nアーマー: 3\n靴: 1\n手袋: 1\n盾: 3\n剣: 1",
+        "text_6": "宝箱の鍵は中庭のレベル2のランダムな場所にあります。\n日が終わると少しずつ体力が回復します。",
+        "text_7": "感謝 \n UIインタラクションのサウンドは以下で生成されました - https://sfxr.me/ \n すべてのサウンドはCC0ライセンスの下で提供されています：\n true_love_ost - neneより - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg - JaggedStoneより - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg - sicklinkより - https://opengameart.org/content/locked-door \n Fragments Of Time - Psychronicより - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "感謝 \n Tears Of The Fallen - Psychronicより - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room - Kevin MacLeodより - https://freepd.com \n Night Vigil - Kevin MacLeodより - https://freepd.com \n a very brady special - Kevin MacLeodより - https://freepd.com \n pond - Rafael Kruxより - https://freepd.com \n SwordBattle2.wav - freefire66より - https://freesound.org/s/175951/ -- ライセンス: Creative Commons 0"
+
+    }
+
+
+}

@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "Oyna",
+        "load": "Yükle",
+        "settings": "Ayarlar",
+        "language": "Dil",
+        "info": "Bilgi",
+        "next": "İleri",
+        "previous": "Önceki"
+    },
+    "intro": {
+        "old_man": "Bu Dani’nin hikayesi. Hasta babasını ziyaret etti.",
+        "old_man_dead": "Babası öldü. Dani çok üzgündü.",
+        "paper_reading": "Borçlu bir malikaneyi miras aldı. Kalmaya karar verdi."
+    },
+    "game": {
+        "nextDay": "Ertesi",
+        "save": "Kaydet",
+        "exit": "Çıkış",
+        "back": "Geri",
+        "move_points": "Hamle",
+        "coins": "Paralar",
+        "force": "Güç",
+        "intelligence": "Zekâ",
+        "health": "Can",
+        "not_enough_move_points": "Yetersiz hamle",
+        "no_plants_to_delete": "Silinecek bitki yok",
+        "garden_description": "Bahçe. Bitki yetiştir, kazan.",
+        "gym_description": "Spor. Güçlen burada.",
+        "workshop_description": "Atölye. Burada eşyalar oluşturun.",
+        "backyard_description": "Avlu. Temizle, bul eşya.",
+        "not_enough_force": "Yeterli güç yok",
+        "level": "Seviye",
+        "plant_was_destroyed": "Bitki yok edildi",
+        "stone_was_destroyed": "Taş yok edildi",
+        "enemy_was_defeated": "Düşman yenildi",
+        "oh_no_dani_dead": "Ah hayır! Dani öldü!",
+        "treasure_was_found": "Hazine bulundu",
+        "game_over_dani_dead": "Oyun bitti. Dani öldü.",
+        "game_over_dani_left": "Oyun bitti. Burası borçlardan dolayı alındı. Dani gitti ve artık kimse onun nerede olduğunu bilmiyor.",
+        "sound_volume": "Ses seviyesi",
+        "item_crafted" : "Eşya üretildi",
+        "balance" : "Bakiye",
+        "dayly_tax" : "Günlük vergi",
+        "day" : "Gün",
+        "got_from_garden" : "Bahçeden alındı",
+        "base_scene_description": "Eylemler tamamlandığında sonraki günü tıklayın. Kazanmak için topla: ",
+        "game_over_dani_winForceFullOnly": "Dani kazandı. Borçlarını ödedi. Ardından malikaneye bir antrenman alanı yaptı. Dani çeşitli yarışmalarda sık sık kazanıyordu. Gücüyle saygı görüyordu.",
+        "game_over_dani_winIntelligenceFullOnly": "Dani kazandı. Borçlarını ödedi. Ardından malikaneye bir kütüphane kurdu. Dani bir bilim insanı oldu. Zekasıyla saygı görüyordu.",
+        "game_over_dani_winFull": "Her şey çok iyi gitti. Dani borçlarını ödedi. Güçlü ve zeki biri oldu. Artık kimse ondan malikaneyi alamaz. Evlendi ve evinde barış ile düzen hâkim oldu.",
+        "game_over_dani_disappointed": "Belki de bu Dani için çok zor oldu. Bu yüzden buradan ayrılmaya karar verdi. Ne yazık. Her şey yolunda gibiydi ama Dani umudunu kaybetti. Ne yazık.",
+        "plant_exists": "Burada zaten bir bitki var",
+        "game_over_dani_winSimple": "Dani kazandı. Borçlarını ödedi. Malikânede uzun ve mutlu bir hayat sürdü.",
+        "no_secret_key": "Anahtar yok",
+        "chest_opened": "Sandık açıldı",
+        "castle_description": "Sandığı açmak için bahçede anahtarı bul",
+        "letter": "Sevgili Dani,\nHer zaman seninle olacağım, anılarında.\nSahip olduğum her şeyi — sana bırakıyorum. \nSana inanıyorum. \nZorluklardan korkma. \n\nBaban",
+        "secret_key_found": "Anahtar bulundu"
+    },
+    "info": {
+        "text_1": "Çocuk Dani'ye borçlarını ödemesinde ve miras kalan aile malikanesini korumasında yardım edin.\nKazanmak için 1000 toplayın. Her gün artan bir vergi alınır. Bakiyenin 0'ın altına düşmediğinden emin olun.\nOyun şu etkinlikte geliştirildi:\nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nPhaser3 oyun motoru kullanıldı.\nhttps://phaser.io/",
+        "text_2": "Oyunun 7 farklı sonu vardır.\n1 - Oyuna başlayıp tamamlamadan çıkın. Dani hayal kırıklığına uğrayacak.\n2 - Dani düşmanlarla savaşta ölebilir.\n3 - Bakiye 0’ın altına düşer. Dani malikaneyi terk eder ve kaybolur.\n4 - Tam zafer. Maksimum güç ve zeka gerekir, ayrıca 1000 toplanmalı.\n5 - Maksimum güçle, ancak maksimum zekâ olmadan 1000 toplanarak kazanılır.\n6 - Maksimum zekâ ile, ancak maksimum güç olmadan 1000 toplanarak kazanılır.\n7 - Maksimum güç veya zekâ olmadan 1000 toplanarak kazanılır.",
+        "text_3": "Bahçede bitkiler para verir.\nSebzeler 1 (daha olası) ila 3 (daha az olası) verir\nMeyveler 2 verir, zeka 1 gerektirir\nAğaçlar 1 (daha az olası) ila 3 (daha olası) verir, zeka 2 gerektirir",
+        "text_4": "Avludaki hasar:\nÇim 1...5\nTaş 1...10 (güç 1 ile kırılabilir)\nDüşmanlar 11...15.\n",
+        "text_5": "Ekipman savunması:\nKask: 1\nZırh: 3\nAyakkabı: 1\nEldiven: 1\nKalkan: 3\nKılıç: 1",
+        "text_6": "Sandık anahtarı, 2. seviyede avluda rastgele bir konumda verilir. Gün sonunda sağlık yavaşça yenilenir.",
+        "text_7": "Teşekkür \n UI etkileşim sesleri burada üretildi - https://sfxr.me/ \n Tüm sesler CC0 lisansı altındadır:\n true_love_ost - nene tarafından - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg - JaggedStone tarafından - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg - sicklink tarafından - https://opengameart.org/content/locked-door \n Fragments Of Time - Psychronic tarafından - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "Teşekkür \n Tears Of The Fallen - Psychronic tarafından - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room - Kevin MacLeod tarafından - https://freepd.com \n Night Vigil - Kevin MacLeod tarafından - https://freepd.com \n a very brady special - Kevin MacLeod tarafından - https://freepd.com \n pond - Rafael Krux tarafından - https://freepd.com \n SwordBattle2.wav - freefire66 tarafından - https://freesound.org/s/175951/ -- Lisans: Creative Commons 0"
+    }
+
+
+}

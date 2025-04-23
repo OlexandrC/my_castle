@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "Spiele",
+        "load": "Laden",
+        "settings": "Menü",
+        "language": "Sprache",
+        "info": "Info",
+        "next": "Weiter",
+        "previous": "Zurück"
+    },
+    "intro": {
+        "old_man": "Das ist die Geschichte von Dani. Er besuchte seinen kranken Vater.",
+        "old_man_dead": "Der Vater starb bald. Dani vermisste ihn sehr.",
+        "paper_reading": "Dani erbte ein altes, verschuldetes Anwesen. Er blieb dort."
+    },
+    "game": {
+        "nextDay": "Nächster",
+        "save": "Speichrn",
+        "exit": "Exit",
+        "back": "Zurück",
+        "move_points": "Züge",
+        "coins": "Münzen",
+        "force": "Kraft",
+        "intelligence": "Klug",
+        "health": "Leben",
+        "not_enough_move_points": "Nicht genug Züge",
+        "no_plants_to_delete": "Keine Pflanzen zu löschen",
+        "garden_description": "Garten. Pflanzen für Gewinn.",
+        "gym_description": "Training. Verbessere Skills.",
+        "workshop_description": "Werkstatt. Erstelle hier Dinge.",
+        "backyard_description": "Hof. Räumen, finde Dinge.",
+        "not_enough_force": "Nicht genug Kraft",
+        "level": "Stufe",
+        "plant_was_destroyed": "Pflanze wurde zerstört",
+        "stone_was_destroyed": "Stein wurde zerstört",
+        "enemy_was_defeated": "Der Feind wurde besiegt",
+        "oh_no_dani_dead": "Oh nein! Dani ist tot!",
+        "treasure_was_found": "Schatz wurde gefunden",
+        "game_over_dani_dead": "Spiel vorbei. Dani ist gestorben.",
+        "game_over_dani_left": "Spiel vorbei. Dieser Ort wurde wegen Schulden weggenommen. Dani ist gegangen und niemand weiß, wo er jetzt ist.",
+        "sound_volume": "Lautstärke",
+        "item_crafted" : "Gegenstand hergestellt",
+        "balance" : "Kontostand",
+        "dayly_tax" : "Tägliche Steuer",
+        "day" : "Tag",
+        "got_from_garden" : "Aus dem Garten erhalten",
+        "base_scene_description": "Drücke auf den nächsten Tag, wenn die Aktionen abgeschlossen sind. Um zu gewinnen, sammle: ",
+        "game_over_dani_winForceFullOnly": "Dani gewann. Er bezahlte seine Schulden. Dann baute er auf dem Anwesen einen Trainingsplatz. Dani gewann oft bei verschiedenen Wettbewerben. Er wurde für seine Stärke respektiert.",
+        "game_over_dani_winIntelligenceFullOnly": "Dani gewann. Er bezahlte seine Schulden. Dann baute er auf dem Anwesen eine Bibliothek. Dani wurde ein Gelehrter. Er wurde für seinen Verstand respektiert.",
+        "game_over_dani_winFull": "Alles lief sehr gut. Dani bezahlte seine Schulden. Er wurde stark und klug. Jetzt kann ihm niemand mehr das Anwesen nehmen. Er heiratete, und in seinem Haus herrschten Frieden und Ordnung.",
+        "game_over_dani_disappointed": "Vielleicht wurde es für Dani zu schwer. Also beschloss er, diesen Ort zu verlassen. Schade. Es sah so aus, als wäre alles gut, aber Dani verlor den Mut. Schade.",
+        "plant_exists": "Hier ist bereits eine Pflanze",
+        "game_over_dani_winSimple": "Dani hat gewonnen. Er hat seine Schulden bezahlt. Er lebte lange und glücklich im Anwesen.",
+        "no_secret_key": "Kein Schlüssel",
+        "chest_opened": "Truhe geöffnet",
+        "castle_description": "Finde den Schlüssel im Garten, um die Truhe zu öffnen",
+        "letter": "Mein lieber Dani,\nIch werde immer bei dir sein, in deinen Erinnerungen.\nAlles, was ich hatte – überlasse ich dir. \nIch glaube an dich. \nFürchte dich nicht vor Schwierigkeiten. \n\nDein Papa",
+        "secret_key_found": "Schlüssel gefunden"
+    },
+    "info": {
+        "text_1": "Hilf dem Jungen Dani, seine Schulden zu begleichen und das geerbte Familienanwesen zu behalten.\nSammle 1000, um zu gewinnen. Täglich wird eine Steuer erhoben, die sich allmählich erhöht. Achte darauf, dass dein Kontostand nicht unter 0 fällt.\nDas Spiel wurde während des \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nErstellt mit der Spiel-Engine Phaser3.\nhttps://phaser.io/",
+        "text_2": "Das Spiel hat 7 Enden.\n1 - Starte das Spiel und verlasse es, ohne es zu beenden. Dani wird enttäuscht sein.\n2 - Dani kann im Kampf gegen Feinde sterben.\n3 - Der Kontostand fällt unter 0. Dani verlässt das Anwesen und verschwindet.\n4 - Voller Sieg. Max. Stärke und Intelligenz erforderlich und 1000 sammeln.\n5 - Sieg mit max. Stärke, aber ohne max. Intelligenz und 1000 sammeln.\n6 - Sieg mit max. Intelligenz, aber ohne max. Stärke und 1000 sammeln.\n7 - Sieg ohne max. Stärke und Intelligenz und 1000 sammeln.",
+        "text_3": "Im Garten geben Pflanzen Münzen.\nGemüse gibt 1 (wahrscheinlicher) bis 3 (weniger wahrscheinlich)\nBeeren geben 2, erfordert Intelligenz 1\nBäume geben 1 (weniger wahrscheinlich) bis 3 (wahrscheinlicher), erfordert Intelligenz 2",
+        "text_4": "Schaden im Hof:\nGras 1...5\nSteine 1...10 (können mit Stärke 1 zerstört werden)\nFeinde 11...15.\n",
+        "text_5": "Ausrüstungsabwehr:\nHelm: 1\nRüstung: 3\nSchuhe: 1\nHandschuhe: 1\nSchild: 3\nSchwert: 1",
+        "text_6": "Der Schlüssel für die Truhe ist im Hof, Level 2, an einem zufälligen Ort. Gesundheit wird am Ende des Tages langsam wiederhergestellt.",
+        "text_7": "Danksagung \n UI-Interaktionsgeräusche erstellt mit - https://sfxr.me/ \n Alle Sounds unter CC0-Lizenz:\n true_love_ost von nene - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg von JaggedStone - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg von sicklink - https://opengameart.org/content/locked-door \n Fragments Of Time von Psychronic - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "Danksagung \n Tears Of The Fallen von Psychronic - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room von Kevin MacLeod - https://freepd.com \n Night Vigil von Kevin MacLeod - https://freepd.com \n a very brady special von Kevin MacLeod, - https://freepd.com \n pond von Rafael Krux. - https://freepd.com \n SwordBattle2.wav von freefire66 - https://freesound.org/s/175951/ -- Lizenz: Creative Commons 0"
+    }
+
+
+}

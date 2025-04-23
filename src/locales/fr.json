@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "Jouer",
+        "load": "Chrgmt",
+        "settings": "Options",
+        "language": "Langue",
+        "info": "Info",
+        "next": "Suiv",
+        "previous": "Précédent"
+    },
+    "intro": {
+        "old_man": "C'est l'histoire de Dani. Il est venu voir son père malade.",
+        "old_man_dead": "Son père est mort. Dani le pleurait beaucoup.",
+        "paper_reading": "Il hérita d’un manoir endetté. Il décida d’y vivre."
+    },
+    "game": {
+        "nextDay": "Jour suiv",
+        "save": "Sauver",
+        "exit": "Quitter",
+        "back": "Retour",
+        "move_points": "Dépl.",
+        "coins": "Pièces",
+        "force": "Force",
+        "intelligence": "Esprit",
+        "health": "Santé",
+        "not_enough_move_points": "Pas assez de dépl.",
+        "no_plants_to_delete": "Aucune plante à effacer",
+        "garden_description": "Jardin. Plantez pour gagner.",
+        "gym_description": "Gym. Améliore tes talents.",
+        "workshop_description": "Atelier. Créez des choses ici.",
+        "backyard_description": "Cour. Nettoie, trouve trucs.",
+        "not_enough_force": "Pas assez de force",
+        "level": "Niveau",
+        "plant_was_destroyed": "La plante a été détruite",
+        "stone_was_destroyed": "La pierre a été détruite",
+        "enemy_was_defeated": "L’ennemi a été vaincu",
+        "oh_no_dani_dead": "Oh non ! Dani est mort !",
+        "treasure_was_found": "Trésor trouvé",
+        "game_over_dani_dead": "Fin du jeu. Dani est mort.",
+        "game_over_dani_left": "Fin du jeu. Cet endroit a été saisi pour dettes. Dani est parti et personne ne sait où il est.",
+        "sound_volume": "Volume",
+        "item_crafted" : "Objet fabriqué",
+        "balance" : "Solde",
+        "dayly_tax" : "Taxe quotidienne",
+        "day" : "Jour",
+        "got_from_garden" : "Obtenu du jardin",
+        "base_scene_description": "Appuyez sur le jour suivant lorsque les actions sont terminées. Pour gagner, collectez : ",
+        "game_over_dani_winForceFullOnly": "Dani a gagné. Il a remboursé ses dettes. Ensuite, il a construit un terrain d'entraînement dans le manoir. Dani gagnait souvent divers concours. Il était respecté pour sa force.",
+        "game_over_dani_winIntelligenceFullOnly": "Dani a gagné. Il a remboursé ses dettes. Ensuite, il a créé une bibliothèque dans le manoir. Dani est devenu un érudit. Il était respecté pour son intelligence.",
+        "game_over_dani_winFull": "Tout s'est très bien passé. Dani a remboursé ses dettes. Il est devenu fort et intelligent. Désormais, personne ne pourra lui prendre son manoir. Il s'est marié et la paix et l'ordre ont régné dans sa maison.",
+        "game_over_dani_disappointed": "Peut-être que c'était devenu trop difficile pour Dani. Alors il a décidé de quitter cet endroit. Dommage. Tout semblait aller bien, mais Dani a perdu espoir. Dommage.",
+        "plant_exists": "Il y a déjà une plante ici",
+        "game_over_dani_winSimple": "Dani a gagné. Il a remboursé ses dettes. Il est resté vivre dans le manoir, longtemps et heureux.",
+        "no_secret_key": "Pas de clé",
+        "chest_opened": "Coffre ouvert",
+        "castle_description": "Trouvez la clé dans le jardin pour ouvrir le coffre",
+        "letter": "Mon cher Dani,\nJe serai toujours avec toi, dans tes souvenirs.\nTout ce que j'avais — je te le laisse. \nJe crois en toi. \nN’aie pas peur des difficultés. \n\nTon papa",
+        "secret_key_found": "Clé trouvée"
+    },
+    "info": {
+        "text_1": "Aidez le garçon Dani à rembourser ses dettes et à conserver le domaine familial qu’il a hérité.\nCollectez 1000 pour gagner. Une taxe est prélevée chaque jour et augmente progressivement. Veillez à ce que le solde ne descende pas en dessous de 0.\nLe jeu a été créé pendant le \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nDéveloppé avec le moteur de jeu Phaser3.\nhttps://phaser.io/",
+        "text_2": "Le jeu comporte 7 fins.\n1 - Lancez le jeu et quittez sans terminer. Dani sera déçu.\n2 - Dani peut mourir au combat contre les ennemis.\n3 - Le solde tombe sous 0. Dani quitte le domaine et disparaît.\n4 - Victoire totale. Nécessite force et intelligence maximales et collecter 1000.\n5 - Victoire avec force maximale mais sans intelligence maximale et collecter 1000.\n6 - Victoire avec intelligence maximale mais sans force maximale et collecter 1000.\n7 - Victoire sans force ni intelligence maximales et collecter 1000.",
+        "text_3": "Dans le jardin, les plantes donnent des pièces.\nLes légumes donnent entre 1 (plus probable) et 3 (moins probable)\nLes baies donnent 2, nécessite une intelligence de 1\nLes arbres donnent entre 1 (moins probable) et 3 (plus probable), nécessite une intelligence de 2",
+        "text_4": "Dégâts dans la cour :\nHerbe 1...5\nPierres 1...10 (cassables avec force 1)\nEnnemis 11...15.\n",
+        "text_5": "Défense de l’équipement :\nCasque : 1\nArmure : 3\nChaussures : 1\nGants : 1\nBouclier : 3\nÉpée : 1",
+        "text_6": "La clé du coffre se trouve dans la cour, niveau 2, à un endroit aléatoire. La santé se régénère lentement à la fin de la journée.",
+        "text_7": "Remerciements \n Sons d'interaction de l'interface générés sur - https://sfxr.me/ \n Tous les sons sous licence CC0 :\n true_love_ost par nene - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg par JaggedStone - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg par sicklink - https://opengameart.org/content/locked-door \n Fragments Of Time par Psychronic - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "Remerciements \n Tears Of The Fallen par Psychronic - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room par Kevin MacLeod - https://freepd.com \n Night Vigil par Kevin MacLeod - https://freepd.com \n a very brady special par Kevin MacLeod, - https://freepd.com \n pond par Rafael Krux. - https://freepd.com \n SwordBattle2.wav par freefire66 - https://freesound.org/s/175951/ -- Licence : Creative Commons 0"
+    }
+
+
+}

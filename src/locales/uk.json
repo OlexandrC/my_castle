@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "play": "Грати",
+        "load": "Завантаж",
+        "settings": "Опцiї",
+        "language": "Мова",
+        "info": "Інфо",
+        "next": "Далі",
+        "previous": "Назад"
+    },
+    "intro": {
+        "old_man": "Це історія одного хлопця на ім'я Dani. Він приїхав відвідати свого татка який був дуже хворим.",
+        "old_man_dead": "Невдовзі татко помер. Dani дуже любив свого татка і дуже сумував за ним.",
+        "paper_reading": "У спадок від татка, Dani отримав старий маєток, який був дуже занедбаний, та мав борги. Але Dani вирішив залишитися жити в маєтку."
+    },
+    "game": {
+        "nextDay": "Наст. день",
+        "save": "Зберегти",
+        "exit": "Вихід",
+        "back": "Назад",
+        "move_points": "Очки ходів",
+        "coins": "Монети",
+        "force": "Сила",
+        "intelligence": "Інтелект",
+        "health": "Здоров'я",
+        "not_enough_move_points": "Не достатньо очків ходів",
+        "no_plants_to_delete": "Немає рослин для видалення",
+        "garden_description": "Город. Тут вирощуйте рослини що дають прибуток.",
+        "gym_description": "Тренування. Тут покращуйте свої здібності.",
+        "workshop_description": "Майстерня. Тут створіть речі.",
+        "backyard_description": "Двір. Очистіть його, можливо знайдеться щось корисне.",
+        "not_enough_force": "Не достатньо сили",
+        "level": "Рівень",
+        "plant_was_destroyed": "Рослина знищена",
+        "stone_was_destroyed": "Каміння знищене",
+        "enemy_was_defeated": "Ворога знищено",
+        "oh_no_dani_dead": "Ой! Ні! Dani загинув!",
+        "treasure_was_found": "Скарб знайдено",
+        "game_over_dani_dead": "Кінець гри. Dani помер.",
+        "game_over_dani_left": "Кінець гри. Це місце забрали з борги. Dani пішов і тепер ніхто не знає де  він є.",
+        "sound_volume": "Гучність",
+        "item_crafted" : "Річ створено",
+        "balance" : "Баланс",
+        "dayly_tax" : "Щоденний податок",
+        "day" : "День",
+        "got_from_garden" : "Отримано з саду",
+        "base_scene_description": "Натисніть наступний день, коли дії завершаться. Щоб виграти, зберіть: ",
+        "game_over_dani_winForceFullOnly": "Dani переміг. Він розплатився з боргами. Потім він зробив в маєтку тренувальний майданчик. Dani часто перемагав у різних змаганнях. Його поважали через його силу.",
+        "game_over_dani_winIntelligenceFullOnly": "Dani переміг. Він розплатився з боргами. Потім він зробив в маєтку бібліотеку. Dani став вченим. Його поважали за його розум.",
+        "game_over_dani_winFull": "Все получилося дуже добре. Dani розплатився з боргами. Він став сильним та розумним. Тепер ніхто не забере в нього маєток. Він одружився і в його домі настав мир та порядок. ",
+        "game_over_dani_disappointed": "Можливо це стало дужке важко для Dani. Тому він вирішив піти з цього місця. Шкода. Здавалося що наче все добре, але в Dani опустилися руки. Шкода.",
+        "plant_exists": "Тут вже є рослина",
+        "game_over_dani_winSimple": "Dani переміг. Він розплатився з боргами. Він залишився жити в маєтку довго і щасливо.",
+        "no_secret_key": "Немає ключа",
+        "chest_opened": "Сундук відкрито",
+        "castle_description": "Знайдіть ключ в саду щоб відкрити сундук",
+        "letter": "Мій любий Dani,\nЯ завжди буду з тобою, у твоїх спогадах.\nУсе, що в мене було — я залишаю тобі. \nЯ вірю в тебе. \nНе бійся труднощів. \n\nТвій татко",
+        "secret_key_found": "Ключ знайдено"
+          
+    },
+    "info": {
+        "text_1": "Допоможіть хлопцю Dani розплатитися з боргами та зберегти сімейний маєток що дістався йому у спадок.\nЗберіть 1000 щоб виграти. Щодня збирається податок, що поступово збільшується. Слідкуйте щоб баланс не був нижче 0.\nГра була зроблена в продовж \nGamedev.js Jam 2025\nhttps://itch.io/jam/gamedevjs-2025\n\nВикористано ігровий рушій Phaser3.\nhttps://phaser.io/",
+        "text_2": "Гра має 7 фінальних сцен.\n1 - Розпочніть гру та вийдіть не завершивши гри. Dani буде розчарований.\n2 - Dani може померти в битві з ворогами.\n3 - Баланс буде нижче 0. Dani покине маєток та зникне.\n4 - Повний виграш. Треба розвинути максимум сили та інтелекту та зібрати 1000.\n5 - Виграш з максимум сили але без максимума інтелекту та зібрати 1000.\n6 - Виграш з максимум інтелектом але без максимума сили та зібрати 1000.\n7 - Виграш без максимальної сили та без максимального інтелекту та зібрати 1000.",
+        "text_3": "В саду рослини дають монети.\nОвочі дають від 1 (більш ймовірно) до 3 (менш ймовірно)\nЯгоди дають 2, потрібен інтелект 1\nДерева дають від 1 (менш ймовірно) до 3 (більш ймовірно), потрібен інтелект 2",
+        "text_4": "Урон у дворі:\nТрава 1...5\nКаміння 1...10 (можна розбивати при силі 1)\nВороги 11...15.\n",
+        "text_5": "Захист від спорядження:\nШолом: 1\nБроня: 3\nВзуття: 1\nРукавиці: 1\nЩит: 3\nМеч: 1",
+        "text_6": "Ключ для скрині надається в дворі, рівень 2, в випадковому місці. Здоров'я відновлюється по трохи при завершенні дня.",
+        "text_7": "Подяка \n UI interaction sounds generated on - https://sfxr.me/ \n All sounds under CC0 license:\n true_love_ost by nene - https://opengameart.org/content/true-love-epic-orchestral \n magical_1.ogg by JaggedStone - https://opengameart.org/content/magic-spell-sfx \n LockedDoor.ogg by sicklink - https://opengameart.org/content/locked-door \n Fragments Of Time by Psychronic - https://pixabay.com/music/modern-classical-fragments-of-time-233389/ ",
+        "text_8": "Подяка \n Tears Of The Fallen by Psychronic - https://pixabay.com/music/build-up-scenes-tears-of-the-fallen-233290/ \n Painting Room by Kevin MacLeod - https://freepd.com \n Night Vigil by Kevin MacLeod - https://freepd.com \n a very brady special by Kevin MacLeod, - https://freepd.com \n pond by Rafael Krux. - https://freepd.com \n SwordBattle2.wav by freefire66 - https://freesound.org/s/175951/ -- License: Creative Commons 0"
+    }
+
+}

@@ -169,8 +169,10 @@ export class BaseGameScene extends Phaser.Scene {
         this.uiButtons.push(saveButton);
 
         let exitButton = new UIButton(this, 200, 170, i18n.t("game.exit"), "button");
+        exitButton.label.setColor("#ff0000");
         this.soundScene.createButtonSounds(exitButton.image);
         exitButton.image.on("pointerdown", () => {
+            sceneManager.getSoundScene().stopAll();
             this.scene.stop();
             this.scene.start("GameOverScene");
         });

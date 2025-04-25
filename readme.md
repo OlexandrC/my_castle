@@ -22,6 +22,10 @@ Gamedev.js Jam 2025
 
 https://itch.io/jam/gamedevjs-2025
 
+Game is available there:
+
+https://olexandrch.itch.io/my-castle
+
 Within the theme of Balance, various game ending scenarios are used.
 
 Playing in imbalance, which is more challenging, try to unlock all possible endings.

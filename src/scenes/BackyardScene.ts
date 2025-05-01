@@ -6,6 +6,7 @@ import { messageToPlayer } from "../services/MessageToPlayerService";
 import { BackyardObject, LevelService } from "../services/LevelService";
 import { ItemService } from "../services/ItemService";
 import { UIButton } from "../ui/UIButton";
+import { uiGrid } from "../ui/UIGrid";
 
 export class BackyardScene extends Phaser.Scene {
     levelService!: LevelService;
@@ -26,7 +27,10 @@ export class BackyardScene extends Phaser.Scene {
     wasd!: any;
     level: integer = 0;
 
+    playerMoveAnimationDuration: number = 1000;
+
     lastPlayerMoveTime = Date.now();
+    playerMovementIsAnimating = false;
 
     depth = {
         background: 0,
@@ -45,6 +49,7 @@ export class BackyardScene extends Phaser.Scene {
 
     init(data: { level: number }) {
         this.level = data.level ?? 0;
+        this.playerMovementIsAnimating = false;
     }
 
     create() {
@@ -162,11 +167,21 @@ export class BackyardScene extends Phaser.Scene {
     }
 
     createTiles() {
-        for (let i = 0; i < gameState.backyardTilesAmount; i++) {
-            let {x, y} = sceneManager.getTilePositionByIndex(this, i, gameState.backyardTilesAmount, gameState.backyardTileSize);
-    
-            this.drawTileBackground(x, y);
-        }
+        this.add.image(640, 360, "game_yard_tiles" )
+            .setDepth(this.depth.background)
+            .setScale(1.81)
+            .setScrollFactor(1);
+
+        uiGrid.drawGridOverlay({
+            scene: this,
+            x: 640,
+            y: 360,
+            cellWidth: gameState.backyardTileSize,
+            cellHeight: gameState.backyardTileSize,
+            rows: gameState.backyardRowColumnAmount,
+            cols: gameState.backyardRowColumnAmount,
+            color: 0xffffff,
+            alpha: 0.2});
     }
 
     createWall() {
@@ -336,10 +351,19 @@ export class BackyardScene extends Phaser.Scene {
     update() {
         if (!this.player) { return; }
 
-        this.player.setPosition(
-            Phaser.Math.Linear(this.player.x, this.playerTargetPosition.x, 0.1), 
-            Phaser.Math.Linear(this.player.y, this.playerTargetPosition.y, 0.1)
-        );
+        if ((this.player.x !== this.playerTargetPosition.x || this.player.y !== this.playerTargetPosition.y) && !this.playerMovementIsAnimating) {
+            this.playerMovementIsAnimating = true;
+            this.tweens.add({
+                targets: this.player,
+                x: this.playerTargetPosition.x,
+                y: this.playerTargetPosition.y,
+                duration: this.playerMoveAnimationDuration,
+                ease: Phaser.Math.Easing.Sine.InOut,
+                onComplete: () => {
+                    this.playerMovementIsAnimating = false;
+                }
+            });
+        }
 
         if (this.isPlayerMoving()) { return; }
 
@@ -372,7 +396,7 @@ export class BackyardScene extends Phaser.Scene {
 
     /** once on player move */ 
     movePlayer(target: {targetRow?: number, targetColumn?: number}) {
-        if (Date.now() - this.lastPlayerMoveTime < 1000 ) {  return; }
+        if (Date.now() - this.lastPlayerMoveTime < this.playerMoveAnimationDuration ) {  return; }
         this.lastPlayerMoveTime = Date.now();
 
         const {
@@ -555,7 +579,7 @@ export class BackyardScene extends Phaser.Scene {
                 targets: coinImage,
                 y: coinImage.y - 100,
                 alpha: 0,
-                duration: 1000,
+                duration: this.playerMoveAnimationDuration,
                 onComplete: () => {
                     coinImage.destroy();
                 }
@@ -644,26 +668,8 @@ export class BackyardScene extends Phaser.Scene {
         this.tiles.push(tile);
     }
 
-    deleteTiles() {
-        for (let tile of this.tiles) {
-            tile.destroy();
-        }
-        this.tiles = [];
-    }
-
     getTileNameOfBackground(): string {
         let tileNames = ["garden_tile_01", "garden_tile_02", "garden_tile_03", "garden_tile_04", "garden_tile_05"];
         return tileNames[Math.round(Math.random() * 4)];
-    }
-
-    redrawScene() {
-        this.deleteTiles();
-
-        this.setLevelText();
-        this.setMovePointsText();
-
-        this.time.delayedCall(50, () => {
-            this.createTiles();
-        })
     }
 }

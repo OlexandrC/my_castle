@@ -173,6 +173,7 @@ export class BootScene extends Phaser.Scene {
         this.load.image("game_backyard", "assets/images/game_backyard.png");
 
         this.load.image("game_garden_background", "assets/images/game_garden_background.jpg");
+        this.load.image("game_yard_tiles", "assets/images/game_yard_tiles.jpg");
 
         this.load.image("garden_tile_01", "assets/images/garden_tile_01.jpg");
         this.load.image("garden_tile_02", "assets/images/garden_tile_02.jpg");

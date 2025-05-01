@@ -1,4 +1,3 @@
-// src/ui/UIButton.ts
 import Phaser from "phaser";
 
 export class UIButton {

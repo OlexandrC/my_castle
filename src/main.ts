@@ -40,6 +40,10 @@ const config: Phaser.Types.Core.GameConfig = {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
     },
+    fps: {
+        target: 60,
+    },
+    transparent: false,
 };
 
 const game = new Phaser.Game(config);
